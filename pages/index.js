@@ -22,7 +22,7 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/about" as={ process.env.BACKEND_URL + '/about'}>
+          <Link href="/about">
             <p>Find in-depth information about Next.js features and API.</p>
           </Link>
 
