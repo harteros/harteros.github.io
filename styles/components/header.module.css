@@ -1,60 +1,71 @@
 .header {
-  color: white;
-  font-weight: normal;
-  background-color: #262e36;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-
-
+    color: white;
+    font-weight: normal;
+    background-color: #0d1118;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
 }
 
 .navbar__logo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .navbar__menu {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
-.navbar__menu-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  cursor: pointer;
-  padding: 10px 15px;
+.navbar__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.navbar__icon {
+    display: none;
 }
 
 @media only screen and (max-width: 1024px) {
 
-  .navbar__menu {
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    right: -100%;
-    padding-top: 60px;
-    width: 10vw;
-    min-width: 312px;
-    height: 100vh;
-    opacity: 0;
-    transition: all 0.5s ease;
-  }
-  .navbar__menu .active {
-    background-color: black;
-    right: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
+    .navbar__menu {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        padding-top: 60px;
+        width: 10vw;
+        min-width: 312px;
+        height: 100vh;
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+
+    .navbar__menu.active {
+        background-color: #0d1118;
+        right: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .navbar__icon {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        z-index: 1;
+    }
 }
