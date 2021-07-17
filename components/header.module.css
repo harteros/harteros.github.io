@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 60px;
+    height: 80px;
 }
 
 .navbar__logo {
@@ -40,6 +40,26 @@
     display: none;
 }
 
+.logo__outer{
+    border: 1px solid #400878;
+    padding: 8px;
+}
+.logo__inner{
+    border: 1px solid #755d9c;
+    padding: 8px 0;
+}
+
+.logo__text{
+    margin: 0 -10px;
+    font-size: 12px;
+    padding: 0 5px;
+    background-color: #0d1118;
+    border-left: 1px solid #944aff;
+    border-right: 1px solid #944aff;
+
+}
+
+
 @media only screen and (max-width: 1024px) {
 
     .navbar__menu {
@@ -47,7 +67,7 @@
         position: absolute;
         top: 0;
         right: -100%;
-        padding-top: 60px;
+        padding-top: 80px;
         width: 10vw;
         min-width: 312px;
         height: 100vh;

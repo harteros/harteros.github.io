@@ -1,0 +1,10 @@
+.overlay{
+    background-color: rgba(13, 17, 24,0.9);
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
