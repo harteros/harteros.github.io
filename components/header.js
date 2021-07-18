@@ -34,11 +34,12 @@ export default function Header() {
 
 function NavItem({to, children, onClick}) {
     return (
-        <div className={styles.navbar__item} onClick={onClick}>
-            <Link href={to}>
+        <Link href={to}>
+            <div className={styles.navbar__item} onClick={onClick}>
                 {children}
-            </Link>
-        </div>
+            </div>
+        </Link>
+
     )
 }
 
