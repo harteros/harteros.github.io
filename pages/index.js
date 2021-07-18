@@ -1,19 +1,14 @@
-import Link from 'next/link'
-import Header from "../components/header";
 import Layout from "../components/layout";
-import Container from "../components/container";
-import styles from "/styles/Home.module.css";
+import TopSection from "../components/sections/top";
+import Portfolio from "../components/sections/portfolio";
+import About from "../components/sections/about";
+
 export default function Home() {
     return (
-        <Layout>
-            <div>
-                <Container>
-                    <div className={styles.center}>
-                        Hello there, im still under development. Check back later!
-
-                    </div>
-                </Container>
-            </div>
+        <Layout >
+            <TopSection/>
+            <Portfolio/>
+            <About/>
         </Layout>
     )
 }

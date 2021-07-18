@@ -1,0 +1,30 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #400878;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    height: 200px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #4d0c8e;
+    height:220px;
+}
+
+.card__credentials{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.card__block{
+    font-size: 0.8rem;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #944aff;
+}

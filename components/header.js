@@ -1,8 +1,8 @@
 import Link from "next/link";
-
-import styles from "../styles/components/header.module.css"
+import styles from "./header.module.css"
 import Container from "./container";
 import {useState} from "react";
+import Logo from "./logo";
 
 export default function Header() {
 
@@ -16,12 +16,12 @@ export default function Header() {
             <Container>
                 <div className={styles.navbar}>
                     <div className={styles.navbar__logo}>
-                        harteros
+                        <Logo/>
                     </div>
                     <div className={click ? `${styles.navbar__menu} ${styles.active}` : styles.navbar__menu}>
-                        <NavItem to={"/"} onClick={closeMenu}>Portfolio</NavItem>
-                        <NavItem to={"/"} onClick={closeMenu}>About</NavItem>
-                        <NavItem to={"/"} onClick={closeMenu}>Contact</NavItem>
+                        <NavItem to={"#portfolio"} onClick={closeMenu}>Portfolio</NavItem>
+                        <NavItem to={"#about"} onClick={closeMenu}>About</NavItem>
+                        <NavItem to={"#top"} onClick={closeMenu}>Contact</NavItem>
                     </div>
                     <div className={styles.navbar__icon} onClick={handleClick}>
                         <span>&#9776;</span>
@@ -41,3 +41,4 @@ function NavItem({to, children, onClick}) {
         </div>
     )
 }
+
