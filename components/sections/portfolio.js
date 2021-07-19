@@ -9,7 +9,6 @@ export default function Portfolio() {
     return (
         <div id="portfolio" className={styles.center}>
             <Container>
-                <div>
                     <h2>Portfolio</h2>
                     <p css={css`margin-bottom: 50px`}>A few of my projects that are worth mentioning. You can find more on my <b><a href={"https://github.com/harteros"} target={"_blank"} rel="noreferrer">Github</a></b> page</p>
                     <Row css={css`align-items: center; justify-content: center`}>
@@ -73,12 +72,8 @@ export default function Portfolio() {
                                 </Card.Credentials>
                             </Card>
                         </Col>
-                        <Col  xs={4} md={3} lg={2}>
-                            <Button to={"https://github.com/harteros"}>Find out more</Button>
-                        </Col>
                     </Row>
-
-                </div>
+                <Button to={"https://github.com/harteros"}>Find out more</Button>
             </Container>
         </div>
     )

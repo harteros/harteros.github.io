@@ -77,9 +77,9 @@
 .timeline__content {
     position: relative;
     margin-left: 60px;
-    margin-right: 30px;
+    /*margin-right: 30px;*/
     background: #4d0c8e;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 1em;
 }
 

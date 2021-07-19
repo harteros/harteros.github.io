@@ -21,7 +21,8 @@ export default function Header() {
                     <div className={click ? `${styles.navbar__menu} ${styles.active}` : styles.navbar__menu}>
                         <NavItem to={"#portfolio"} onClick={closeMenu}>Portfolio</NavItem>
                         <NavItem to={"#about"} onClick={closeMenu}>About</NavItem>
-                        <NavItem to={"#top"} onClick={closeMenu}>Contact</NavItem>
+                        <NavItem to={"#skills"} onClick={closeMenu}>Skills</NavItem>
+                        <NavItem to={"#contact"} onClick={closeMenu}>Contact</NavItem>
                     </div>
                     <div className={styles.navbar__icon} onClick={handleClick}>
                         <span>&#9776;</span>
@@ -34,7 +35,7 @@ export default function Header() {
 
 function NavItem({to, children, onClick}) {
     return (
-        <Link href={to}>
+        <Link href={to} passHref>
             <div className={styles.navbar__item} onClick={onClick}>
                 {children}
             </div>

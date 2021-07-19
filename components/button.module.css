@@ -1,9 +1,16 @@
+.centered{
+    display: flex;
+    justify-content: center;
+}
+
 .button{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #673AB7;
     height: 45px;
+    width: 200px;
+    margin: 30px 0;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);

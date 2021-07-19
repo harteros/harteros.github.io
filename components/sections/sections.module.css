@@ -6,3 +6,6 @@
     min-height: calc(100vh - 80px);
 }
 
+.spacing {
+    padding: 0 10px;
+}
