@@ -15,9 +15,9 @@ export default function Home() {
             </Head>
             <Layout>
                 <TopSection/>
-                <Portfolio/>
                 <About/>
                 <Skills/>
+                <Portfolio/>
                 <Contact/>
             </Layout>
         </div>
