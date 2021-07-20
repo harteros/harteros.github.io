@@ -1,18 +1,18 @@
 .skill__bars {
     width: 100%;
-    background-color: #ddd;
-    border-radius: 10px;
+    background-color: var(--color);
+    border-radius: var(--border-radius);
     margin-bottom: 10px;
 }
 
 .skills {
     padding: 4px 0;
-    color: white;
-    border-radius: 10px;
+    color: var(--color);
+    border-radius: var(--border-radius);
 
 }
-.java {width: 90%; background-color: #4d0c8e;}
-.python {width: 85%; background-color: #673AB7;}
-.js {width: 70%; background-color: #944aff;}
-.html {width: 75%; background-color: #755d9c;}
-.css {width: 60%; background-color: #a16cd4;}
+.java {width: 90%; background-color: var(--primary);}
+.python {width: 85%; background-color: var(--button);}
+.js {width: 70%; background-color: var(--secondary);}
+.html {width: 75%; background-color: var(--third);}
+.css {width: 60%; background-color: var(--button-hover);}

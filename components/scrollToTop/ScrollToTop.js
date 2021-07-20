@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faChevronUp} from "@fortawesome/free-solid-svg-icons";
-import styles from "./scrollToTop.module.css"
+import styles from "./ScrollToTop.module.css"
 
 export default function ScrollToTop() {
     const [isVisible, setIsVisible] = useState(false);

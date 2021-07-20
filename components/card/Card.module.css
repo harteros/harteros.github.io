@@ -2,8 +2,8 @@
     display:flex;
     flex-direction: column;
     padding: 10px;
-    border-radius: 10px;
-    background-color: #400878;
+    border-radius: var(--border-radius);
+    background-color: var(--primary);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     height: 200px;
@@ -11,20 +11,18 @@
 }
 
 .card:hover{
-    background-color: #4d0c8e;
+    background-color: var(--primary-hover);
     height:220px;
 }
 
 .card__credentials{
     display:flex;
-    flex-direction: row;
 }
-
 
 .card__block{
     font-size: 0.8rem;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     padding: 5px 10px;
     margin-right: 10px;
-    background-color: #944aff;
+    background-color: var(--secondary);
 }

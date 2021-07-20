@@ -1,8 +1,8 @@
 import Link from "next/link";
-import styles from "./header.module.css"
-import Container from "./container";
+import styles from "./Header.module.css"
+import Container from "./Container";
 import {useState} from "react";
-import Logo from "./logo";
+import Logo from "../logo/Logo";
 
 export default function Header() {
 

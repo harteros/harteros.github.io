@@ -1,16 +1,10 @@
 .footer {
     display: flex;
     align-items: center;
-    color: white;
-    background-color: #0d1118;
+    color: var(--color);
+    background-color: var(--background);
     width: 100%;
     height: 100px;
-}
-
-.footer__centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .credentials {

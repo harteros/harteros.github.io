@@ -1,14 +1,13 @@
-import Container from "../container";
+import Container from "../layout/Container";
 import styles from "./about.module.css"
 import {css} from "@emotion/react";
-import sectionstyles from "./sections.module.css";
-
 
 export default function About() {
     return (
-        <div className={sectionstyles.center} id="about">
-            <Container>
-                <h2 css={css`margin-bottom: 50px`}>About me</h2>
+        <div id="about">
+            <Container className="full-height center">
+                <div>
+                <h2 className="vertical-spacing">About me</h2>
                 <section className={styles.timeline}>
                     <div className={styles.timeline__block}>
                         <div className={styles.timeline__imgSmall}/>
@@ -71,11 +70,12 @@ export default function About() {
                         <div className={styles.timeline__content}>
                             <h6 css={css`font-weight: 400;
                               text-align: center;
-                              margin-bottom: 0`}>Searcing for new opportunities and challenges</h6>
+                              margin-bottom: 0;`}>Searcing for new opportunities and challenges</h6>
                             <h6 className={styles.timeline__date}>Currently</h6>
                         </div>
                     </div>
                 </section>
+                </div>
             </Container>
         </div>
     )
