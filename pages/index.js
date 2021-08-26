@@ -14,7 +14,7 @@ export default function Home() {
                 <meta property="og:title" content="Lefteris Harteros" key="title" />
                 <meta name="description" content="Lefteris Harteros Personal Website" />
                 <meta property="og:type" content="Website" />
-                <meta name="image" property="og:image" content="https://raw.githubusercontent.com/harteros/harteros.github.io/gh-pages/website_thumbnail.png?token=AJVAQW2YEO42XUER3KKP5J3A75VBG" />
+                <meta name="image" property="og:image" content="https://raw.githubusercontent.com/harteros/harteros.github.io/gh-pages/website_thumbnail.png?token=AJVAQW2UCERKDEX6PH3HTPLBGEIBS" />
                 <meta name="description" property="og:description" content="Lefteris Harteros Personal Website" />
                 <meta name="author" content="Lefteris Harteros" />
             </Head>
