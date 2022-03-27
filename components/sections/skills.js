@@ -24,13 +24,17 @@ export default function Skills() {
                                 Angular.</p>
                         </Col>
                         <Col xs={12} md={6}>
-                            <p>Java</p>
-                            <div className={styles.skill__bars}>
-                                <div className={styles.skills + " " + styles.java}/>
-                            </div>
                             <p>Python</p>
                             <div className={styles.skill__bars}>
                                 <div className={styles.skills + " " + styles.python}/>
+                            </div>
+                            <p>R</p>
+                            <div className={styles.skill__bars}>
+                                <div className={styles.skills + " " + styles.r}/>
+                            </div>
+                            <p>Java</p>
+                            <div className={styles.skill__bars}>
+                                <div className={styles.skills + " " + styles.java}/>
                             </div>
                             <p>Javascript</p>
                             <div className={styles.skill__bars}>

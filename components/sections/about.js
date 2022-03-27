@@ -1,6 +1,5 @@
 import Container from "../layout/Container";
 import styles from "./about.module.css"
-import {css} from "@emotion/react";
 
 export default function About() {
     return (
@@ -49,7 +48,7 @@ export default function About() {
                         <div className={styles.timeline__img}/>
                         <div className={styles.timeline__content}>
                             <h6>Athens University of Economics and Business</h6>
-                            <p>Graduated and received MSc in Computer Science with GPA 9.7/10
+                            <p>Graduated and received MSc in Computer Science with GPA 9.77/10
                                 and specialization in Artificial Intelligence/Machine Learning and Information
                                 Systems</p>
                             <h6 className={styles.timeline__date}>Oct 2020</h6>
@@ -68,9 +67,11 @@ export default function About() {
                     <div className={styles.timeline__block}>
                         <div className={styles.timeline__img}/>
                         <div className={styles.timeline__content}>
-                            <h6 css={css`font-weight: 400;
-                              text-align: center;
-                              margin-bottom: 0;`}>Searcing for new opportunities and challenges</h6>
+                            <h6>PwC Greece</h6>
+                            <p>Data Scientist at the Data & Analytics team working on projects that range from
+                                deploying Dockerized systems for monitoring and analyzing multiple applications
+                                to building deep learning models to support businesses in decision making
+                            </p>
                             <h6 className={styles.timeline__date}>Currently</h6>
                         </div>
                     </div>

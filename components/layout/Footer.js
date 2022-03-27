@@ -10,11 +10,11 @@ export default function Footer() {
             <Container className="center">
                     <a href={"https://github.com/harteros"} target={"_blank"} rel="noreferrer"><FontAwesomeIcon
                         icon={faGithubSquare} size={"lg"} className="horizontal-spacing"/></a>
-                    <a href={"https://www.linkedin.com/in/lefteris-harteros/"} target={"_blank"}
+                    <a href={"https://www.linkedin.com/in/lefteris-charteros/"} target={"_blank"}
                        rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size={"lg"} className="horizontal-spacing"/></a>
                     <a href={"https://twitter.com/lharteros"} target={"_blank"} rel="noreferrer"><FontAwesomeIcon
                         icon={faTwitterSquare} size={"lg"} className="horizontal-spacing"/></a>
-                    <div className={styles.credentials}>Created by Lefteris Harteros</div>
+                    <div className={styles.credentials}>Created by Lefteris Charteros</div>
             </Container>
         </div>
     )
