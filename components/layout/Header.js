@@ -3,6 +3,8 @@ import styles from "./Header.module.css"
 import Container from "./Container";
 import {useState} from "react";
 import Logo from "../logo/Logo";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
 
@@ -23,9 +25,17 @@ export default function Header() {
                         <NavItem to={"#skills"} onClick={closeMenu}>Skills</NavItem>
                         <NavItem to={"#portfolio"} onClick={closeMenu}>Portfolio</NavItem>
                         <NavItem to={"#contact"} onClick={closeMenu}>Contact</NavItem>
+                        <div className={styles.navbar__item} onClick={closeMenu}>
+                            <a href={"Resume_Charteros.pdf"} target={"_blank"} rel={"noreferrer"}>
+                                <div className={styles.navbar__resume}>
+                                    Resume
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
                     <div className={styles.navbar__icon} onClick={handleClick}>
-                        <span>&#9776;</span>
+                        <FontAwesomeIcon icon={faBars}/>
                     </div>
                 </div>
             </Container>

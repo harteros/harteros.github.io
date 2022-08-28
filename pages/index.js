@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Lefteris Harteros</title>
+                <title>Lefteris Charteros</title>
                 <meta property="og:title" content="Lefteris Harteros" key="title" />
                 <meta name="description" content="Lefteris Harteros Personal Website" />
                 <meta property="og:type" content="Website" />

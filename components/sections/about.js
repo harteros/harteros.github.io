@@ -69,8 +69,8 @@ export default function About() {
                         <div className={styles.timeline__content}>
                             <h6>PwC Greece</h6>
                             <p>Data Scientist at the Data & Analytics team working on projects that range from
-                                deploying Dockerized systems for monitoring and analyzing multiple applications
-                                to building deep learning models to support businesses in decision making
+                                developing and deploying Dockerized systems for monitoring and analyzing multiple applications
+                                to building software solutions and Deep Learning models to support businesses in decision making
                             </p>
                             <h6 className={styles.timeline__date}>Currently</h6>
                         </div>

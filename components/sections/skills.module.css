@@ -12,8 +12,8 @@
 
 }
 .python {width: 90%; background-color: var(--primary);}
-.r {width: 80%; background-color: var(--button);}
-.java {width: 85%; background-color: var(--button);}
+.java {width: 90%; background-color: var(--button);}
+.r {width: 70%; background-color: var(--button);}
 .js {width: 70%; background-color: var(--secondary);}
 .html {width: 75%; background-color: var(--button-hover);}
 .css {width: 60%; background-color: var(--third);}
