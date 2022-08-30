@@ -19,19 +19,19 @@ export default function Portfolio() {
                             <Card.Body>An image recognition and analysis app for patients that have undergone breast
                                 cancer surgery</Card.Body>
                             <Card.Credentials>
-                                <Card.Block>Python</Card.Block>
-                                <Card.Block>Java</Card.Block>
+                                <Card.Block language={"python"}>Python</Card.Block>
+                                <Card.Block language={"java"}>Java</Card.Block>
                             </Card.Credentials>
                         </Card>
                     </Col>
                     <Col sm={12} md={6} lg={4}>
-                        <Card to={"http://www.pyxida.aueb.gr/index.php?op=view_object&object_id=8109"}>
+                        <Card to={"https:////www.pyxida.aueb.gr/index.php?op=view_object&object_id=8109"}>
                             <Card.Header>Research in Federated Learning</Card.Header>
                             <Card.Body>A novel approach to improve the global model convergence
                                 speed as well as to create personalized local models for each device in Federated
                                 Learning</Card.Body>
                             <Card.Credentials>
-                                <Card.Block>Python</Card.Block>
+                                <Card.Block language={"python"}>Python</Card.Block>
                             </Card.Credentials>
                         </Card>
                     </Col>
@@ -40,7 +40,7 @@ export default function Portfolio() {
                             <Card.Header>Natural Language Processing</Card.Header>
                             <Card.Body>Text classification projects with different NLP techniques</Card.Body>
                             <Card.Credentials>
-                                <Card.Block>Python</Card.Block>
+                                <Card.Block language={"python"}>Python</Card.Block>
                             </Card.Credentials>
                         </Card>
                     </Col>
@@ -50,7 +50,7 @@ export default function Portfolio() {
                             <Card.Header>Kok Sotiriou</Card.Header>
                             <Card.Body>An android application for driving theory</Card.Body>
                             <Card.Credentials>
-                                <Card.Block>Java</Card.Block>
+                                <Card.Block language={"java"}>Java</Card.Block>
                             </Card.Credentials>
                         </Card>
                     </Col>
@@ -60,9 +60,9 @@ export default function Portfolio() {
                             <Card.Body>A web app for food orders, haircut reservations and booking system for Rhodes
                                 Greek Army Officers Club</Card.Body>
                             <Card.Credentials>
-                                <Card.Block>Typescript</Card.Block>
-                                <Card.Block>HTML</Card.Block>
-                                <Card.Block>CSS</Card.Block>
+                                <Card.Block language={"js"}>Javascript</Card.Block>
+                                <Card.Block language={"html"}>HTML</Card.Block>
+                                <Card.Block language={"css"}>CSS</Card.Block>
 
                             </Card.Credentials>
                         </Card>
@@ -73,7 +73,7 @@ export default function Portfolio() {
                             <Card.Body>A recommendation system using matrix factorization algorithm with client
                                 application</Card.Body>
                             <Card.Credentials>
-                                <Card.Block>Java</Card.Block>
+                                <Card.Block language={"java"}>Java</Card.Block>
                             </Card.Credentials>
                         </Card>
                     </Col>

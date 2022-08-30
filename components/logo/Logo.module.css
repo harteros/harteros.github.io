@@ -1,9 +1,9 @@
 .logo{
-    border: 1px solid var(--primary);
+    border: 1px solid var(--color-purple);
     padding: 8px;
 }
 .logo__inner{
-    border: 1px solid var(--third);
+    border: 1px solid var(--color-light-pink);
     padding: 8px 0;
 }
 
@@ -12,6 +12,6 @@
     font-size: 12px;
     padding: 0 5px;
     background-color: var(--background);
-    border-left: 1px solid var(--secondary);
-    border-right: 1px solid var(--secondary);
+    border-left: 1px solid var(--color-light-purple);
+    border-right: 1px solid var(--color-light-purple);
 }

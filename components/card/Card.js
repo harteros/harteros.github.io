@@ -31,9 +31,9 @@ export function Credentials({children}) {
     )
 }
 
-export function Block({children}) {
+export function Block({children, language}) {
     return (
-        <p className={styles.card__block}>{children}</p>
+        <p className={language ? styles.card__block + ` ${language}` :  styles.card__block}>{children}</p>
     )
 }
 

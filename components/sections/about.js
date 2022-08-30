@@ -9,7 +9,7 @@ export default function About() {
                 <h2 className="vertical-spacing">About me</h2>
                 <section className={styles.timeline}>
                     <div className={styles.timeline__block}>
-                        <div className={styles.timeline__imgSmall}/>
+                        {/*<div className={styles.timeline__imgSmall}/>*/}
                         <div className={styles.timeline__content}>
                             <h6>Athens University of Economics and Business</h6>
                             <p>Enrolled for BSc studies in Computer Science</p>
@@ -17,7 +17,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className={styles.timeline__block}>
-                        <div className={styles.timeline__imgSmall}/>
+                        {/*<div className={styles.timeline__imgSmall}/>*/}
                         <div className={styles.timeline__content}>
                             <h6>Huawei Seeds for the Future</h6>
                             <p>Participated in Huawei&apos;s two week program in Beijing and Shenzhen where I
@@ -37,7 +37,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className={styles.timeline__block}>
-                        <div className={styles.timeline__imgSmall}/>
+                        {/*<div className={styles.timeline__imgSmall}/>*/}
                         <div className={styles.timeline__content}>
                             <h6>Athens University of Economics and Business</h6>
                             <p>Enrolled for MSc studies in Computer Science</p>
@@ -55,7 +55,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className={styles.timeline__block}>
-                        <div className={styles.timeline__imgSmall}/>
+                        {/*<div className={styles.timeline__imgSmall}/>*/}
                         <div className={styles.timeline__content}>
                             <h6>Greek Army</h6>
                             <p>Fulfilled military obligations at the Computer Science department where I worked as a

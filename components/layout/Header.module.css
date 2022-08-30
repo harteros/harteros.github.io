@@ -32,17 +32,17 @@
 
 .navbar__resume{
     padding: 10px 20px;
-    border: 2px solid var(--primary);
+    border: 2px solid var(--color-purple);
     border-radius: var(--border-radius);
     background-repeat: no-repeat;
     transition: background-size .5s, color .5s;
-    background-size: 0% 100%;
-    background-position: 0% 50%;
+    background-size: 0 100%;
+    background-position: 0 50%;
 }
 
 .navbar__resume:hover {
     background-size: 100% 100%;
-    background-image: linear-gradient(var(--primary),var(--primary));
+    background-image: linear-gradient(var(--color-purple),var(--color-purple));
 }
 
 .navbar__icon {
