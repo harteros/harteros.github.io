@@ -26,8 +26,12 @@ Leaving a 🌟 is also highly appreciated. Thanks!
    ```sh
    next dev
    ```
+  
+3. Alternatively use the commands in the `scripts` section from `packages.json` 
 
 ## Deploying to Github Pages 🚀
+
+In `packages.json` run the corresponding command based on your operating system 
 
 ## For MacOS
 
