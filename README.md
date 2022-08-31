@@ -54,7 +54,7 @@ https://gist.github.com/tduarte/eac064b4778711b116bb827f8c9bef7b
 ### Steps 🩺
 
 ```sh
-git checkout main 
+git checkout main # if not already there
 ```
 
 ```sh
