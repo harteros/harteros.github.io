@@ -1,12 +1,19 @@
-##  Forking this repo
+<h1 style="text-align: center">
+  harteros.github.io
+</h1>
 
-You are free to fork and use this repo as you wish for your personal website. 
+![demo](https://harteros.github.io/website_thumbnail.png)
 
-If you do please give me proper credit by linking back to my Github page at [harteros.github.io](https://harteros.github.io/). 
+## Forking this repo
+
+You are free to fork and use this repo as you wish for your personal website.
+
+If you do please give me proper credit by linking back to my Github page
+at [harteros.github.io](https://harteros.github.io/).
 
 Leaving a 🌟 is also highly appreciated. Thanks!
 
-##  Installation & Set Up 🛠
+## Installation & Set Up 🛠
 
 1. Install dependencies
 
@@ -20,18 +27,20 @@ Leaving a 🌟 is also highly appreciated. Thanks!
    next dev
    ```
 
-##  Deploying to Github Pages 🚀
+## Deploying to Github Pages 🚀
 
 ## For MacOS
 
 ```sh
 "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
 ```
+
 ## For Windows
 
 ```sh
 "deploy": "next build && next export && type nul > out/.nojekyll && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
 ```
+
 ## Getting Started
 
 Run the development server:
@@ -42,7 +51,8 @@ Check out this post:
 
 https://gist.github.com/tduarte/eac064b4778711b116bb827f8c9bef7b
 
-###   Steps 🩺
+### Steps 🩺
+
 ```sh
 git checkout main 
 ```
