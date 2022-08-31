@@ -14,7 +14,7 @@ export default function Footer() {
                    rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size={"2x"} className="horizontal-spacing"/></a>
                 <a href={"https://twitter.com/lharteros"} target={"_blank"} rel="noreferrer"><FontAwesomeIcon
                     icon={faTwitterSquare} size={"2x"} className="horizontal-spacing"/></a>
-                <div className={styles.credentials}>Created by Lefteris Charteros</div>
+                <div className={styles.credentials}>Designed & Built by Lefteris Charteros</div>
             </Container>
         </div>
     )
