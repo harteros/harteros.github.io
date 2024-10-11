@@ -1,31 +1,25 @@
 {
-  "name": "harteros.github.io",
-  "version": "0.1.0",
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "deploy": "next build && next export && type nul > out/.nojekyll && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages",
-    "lint": "next lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@emotion/babel-preset-css-prop": "^11.10.0",
-    "@emotion/react": "^11.10.0",
-    "@fortawesome/fontawesome-svg-core": "^6.1.2",
-    "@fortawesome/free-brands-svg-icons": "^6.1.2",
-    "@fortawesome/free-solid-svg-icons": "^6.1.2",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "bootstrap": "^5.2.0",
-    "next": "^12.2.5",
-    "npm": "^8.18.0",
-    "react": "18.2.0",
-    "react-bootstrap": "^2.5.0",
-    "react-dom": "18.2.0",
-    "react-tsparticles": "^1.42.4"
+    "@nuxt/content": "^2.13.2",
+    "@nuxt/image": "^1.8.0",
+    "@nuxt/ui": "^2.18.6",
+    "nuxt": "^3.13.0",
+    "vue": "latest",
+    "vue-router": "latest"
   },
   "devDependencies": {
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5"
+    "@iconify-json/skill-icons": "^1.2.0",
+    "@iconify-json/tabler": "^1.2.4",
+    "@nuxt/eslint": "^0.5.7"
   }
 }
