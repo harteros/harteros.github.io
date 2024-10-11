@@ -5,6 +5,7 @@ export default defineNuxtConfig({
         compatibilityVersion: 4,
     },
     modules: [
+        '@nuxthq/studio',
         '@nuxt/eslint',
         '@nuxt/content',
         '@nuxt/ui',
@@ -24,15 +25,6 @@ export default defineNuxtConfig({
         preference: 'dark'
     },
     app: {
-        //     <Head>
-        //       <title>Lefteris Charteros</title>
-        //       <meta key="title" property="og:title" content="Lefteris Harteros" >
-        //       <meta name="description" content="Lefteris Harteros Personal Website" >
-        //       <meta property="og:type" content="Website" >
-        //       <meta name="image" property="og:image" content="https://harteros.github.io/website_thumbnail.png" >
-        //       <meta name="description" property="og:description" content="Lefteris Harteros Personal Website" >
-        //       <meta name="author" content="Lefteris Harteros" >
-        //     </Head>
         head: {
             title: 'Lefteris Charteros',
             meta: [
