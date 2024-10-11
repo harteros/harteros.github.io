@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "title": "Skills",
+    "href": "#skills"
+  },
+  "title": "Skills",
+  "description": "Throughout my career and studies, I've had the opportunity to work with a variety of tools and technologies. My main focus is on Python, PyTorch and anything related to machine learning and backend development. Although not my specialty, I also write Vue and Nuxt, when developing full-stack applications.\nNevertheless, I'm always eager to learn new things and expand my skill set, so I'm constantly experimenting with different technologies and frameworks. ",
+  "skills": [
+    {
+      "name": "Python",
+      "icon": "i-skill-icons-python-light",
+      "icon-dark": "i-skill-icons-python-dark"
+    },
+    {
+      "name": "PyTorch",
+      "icon": "i-skill-icons-pytorch-light",
+      "icon-dark": "i-skill-icons-pytorch-dark"
+    },
+    {
+      "name": "Django",
+      "icon": "i-skill-icons-django",
+      "icon-dark": "i-skill-icons-django"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "i-skill-icons-fastapi",
+      "icon-dark": "i-skill-icons-fastapi"
+    },
+    {
+      "name": "Docker",
+      "icon": "i-skill-icons-docker",
+      "icon-dark": "i-skill-icons-docker"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "i-skill-icons-postgresql-light",
+      "icon-dark": "i-skill-icons-postgresql-dark"
+    },
+    {
+      "name": "Azure",
+      "icon": "i-skill-icons-azure-light",
+      "icon-dark": "i-skill-icons-azure-dark"
+    },
+    {
+      "name": "Git",
+      "icon": "i-skill-icons-git",
+      "icon-dark": "i-skill-icons-git"
+    },
+    {
+      "name": "HTML",
+      "icon": "i-skill-icons-html",
+      "icon-dark": "i-skill-icons-html"
+    },
+    {
+      "name": "CSS",
+      "icon": "i-skill-icons-css",
+      "icon-dark": "i-skill-icons-css"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "i-skill-icons-javascript",
+      "icon-dark": "i-skill-icons-javascript"
+    },
+    {
+      "name": "Nuxt.js",
+      "icon": "i-skill-icons-nuxtjs-light",
+      "icon-dark": "i-skill-icons-nuxtjs-dark"
+    }
+  ]
+}
