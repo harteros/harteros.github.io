@@ -1,5 +1,5 @@
 <template>
-  <SectionContainer :title="data.title" section-id="portfolio">
+  <SectionContainer :title="data.title">
     <template #description>
       {{ data.description }}
         <NuxtLink :to="data.portfolio.url" target="_blank" class="text-primary font-bold">

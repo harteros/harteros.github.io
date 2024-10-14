@@ -1,6 +1,7 @@
 {
   "navigation": {
     "title": "Portfolio",
+    "icon": "i-tabler-clipboard-data",
     "href": "#portfolio"
   },
   "title": "Portfolio",

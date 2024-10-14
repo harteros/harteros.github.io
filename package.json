@@ -1,6 +1,8 @@
 {
-  "name": "nuxt-app",
+  "name": "harteros-github-io",
+  "description": "My github.io portfolio website",
   "version": "1.0.0",
+  "packageManager": "pnpm@9.12.1",
   "private": true,
   "type": "module",
   "scripts": {

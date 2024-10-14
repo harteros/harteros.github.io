@@ -1,23 +1,16 @@
 <template>
-  <UButton
-      color="gray"
-      variant="ghost"
-      square
-      @click="isDark = !isDark"
-  >
-    <template #default>
-      <ColorScheme placeholder="...">
-        <template v-if="colorMode.value === 'dark'">
-          <UIcon name='i-tabler-moon' class="w-5 h-5" />
-          <span class="sr-only">Dark Mode</span>
-        </template>
-        <template v-else>
-          <UIcon name= 'i-tabler-sun' class="w-5 h-5" />
-          <span class="sr-only">Light Mode</span>
-        </template>
-      </ColorScheme>
+  <ClientOnly>
+    <UButton
+        :icon="isDark ? 'i-tabler-moon' : 'i-tabler-sun'"
+        color="gray"
+        variant="ghost"
+        aria-label="Theme"
+        @click="isDark = !isDark"
+    />
+    <template #fallback>
+      <div class="w-8 h-8"/>
     </template>
-  </UButton>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
@@ -29,6 +22,6 @@ const isDark = computed({
   },
   set() {
     colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
-  },
+  }
 })
 </script>

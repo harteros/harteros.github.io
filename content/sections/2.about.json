@@ -1,6 +1,7 @@
 {
   "navigation": {
     "title": "About",
+    "icon": "i-tabler-timeline",
     "href": "#about"
   },
   "title": "About Me",

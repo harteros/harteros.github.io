@@ -26,7 +26,7 @@
         <p class="text-gray-700 dark:text-gray-200 mt-2">
           {{ description }}
         </p>
-        <p :class="['text-sm text-gray-400 mt-2 md:absolute top-0 w-full md:text-lg  md:text-white', isEven ? 'md:left-[140%] md:text-start' : 'md:right-[140%] md:text-end']">
+        <p :class="['text-sm text-gray-600 dark:text-gray-300 mt-2 md:absolute top-0 w-full md:text-lg', isEven ? 'md:left-[140%] md:text-start' : 'md:right-[140%] md:text-end']">
           {{ startDate }} - {{ endDate}}
         </p>
       </div>

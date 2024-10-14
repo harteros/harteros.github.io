@@ -1,6 +1,7 @@
 {
   "navigation": {
     "title": "Skills",
+    "icon": "i-tabler-code",
     "href": "#skills"
   },
   "title": "Skills",

@@ -1,5 +1,5 @@
 <template>
-<SectionContainer :title="data.title" section-id="about" :description="data.description">
+<SectionContainer :title="data.title" :description="data.description">
     <Timeline>
       <TimelineBlock
           v-for="(event, index) in timeline"

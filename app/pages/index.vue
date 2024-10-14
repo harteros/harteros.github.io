@@ -1,7 +1,6 @@
 <template>
-
   <SHero/>
-  <SAbout/>
-  <SSkills/>
-  <SPortfolio/>
+  <SAbout id="about"/>
+  <SSkills id="skills"/>
+  <SPortfolio id="portfolio"/>
 </template>
