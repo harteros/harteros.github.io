@@ -1,4 +1,4 @@
-# harteros.github.io
+# Personal Portfolio Website ([harteros.github.io](https://harteros.github.io/))
 
 ![demo](https://harteros.github.io/thumbnail.png)
 
@@ -13,12 +13,12 @@ It is hosted on GitHub Pages, leveraging the power of Nuxt Studio for easy conte
 
 ## Table of Contents
 
-- [Forking this Repo](#forking-this-repo)
+- [Forking this Repo 🍴](#forking-this-repo-)
 - [Installation & Set Up 🛠](#installation--set-up-)
-- [Using Nuxt Studio](#using-nuxt-studio)
-- [Deploying to GitHub Pages](#deploying-to-github-pages)
+- [Using Nuxt Studio 🎧](#using-nuxt-studio-)
+- [Deploying to GitHub Pages 🚀](#deploying-to-github-pages-)
 
-## Forking this Repo
+## Forking this Repo 🍴
 
 You are free to fork and use this repo as you wish for your personal website. 
 If you do, please give me proper credit by linking back to my GitHub page at [harteros.github.io](https://harteros.github.io/). 
@@ -44,9 +44,9 @@ To get started with this project, after cloning the newly forked repo you need t
    nuxt dev
    ```
 
-And that's it! You're ready to go! 🚀 You can now view your website at `http://localhost:3000`.
+And that's it! You're ready to go! You can now view your website at `http://localhost:3000`.
 
-## Using Nuxt Studio
+## Using Nuxt Studio 🎧
 
 Nuxt Studio is a powerful tool that allows you to manage your website's content with ease. 
 You can access it by visiting [Nuxt Studio](https://nuxt.studio) and logging in with your GitHub account.
@@ -61,7 +61,7 @@ After setting up Nuxt Studio with your GitHub account, in order to get started y
 
 Once your project is imported, you can start editing your content under the `Content` tab.
 
-## Deploying to GitHub Pages
+## Deploying to GitHub Pages 🚀
 
 Once your project is set up in Nuxt Studio, you can deploy it to GitHub Pages by following these steps:
 
