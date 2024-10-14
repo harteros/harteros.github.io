@@ -7,7 +7,9 @@
     <h2 class="text-4xl md:text-6xl">{{ data.tagline }}</h2>
     <p class="whitespace-pre-line max-w-3xl">{{ data.description }}</p>
     <div class="flex gap-2">
-      <UIcon v-for="social in data.social" :key="social.name" :name="social.icon" class="text-4xl"/>
+      <NuxtLink v-for="(social, index) in data.social" :key="index" :to="social.url" target="_blank">
+        <UIcon :name="social.icon" class="text-4xl"/>
+      </NuxtLink>
     </div>
     <div class="flex gap-9">
       <UButton variant="solid" :to="data.contact.url" class="mt-4 px-8 py-3" :icon="data.contact.icon" target="_blank">
