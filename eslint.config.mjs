@@ -9,4 +9,9 @@ export default withNuxt(
       }],
     },
   },
-).remove('nuxt/vue/single-root')
+  {
+    rules: {
+      'vue/no-multiple-template-root': 'off',
+    },
+  },
+)

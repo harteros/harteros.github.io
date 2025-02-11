@@ -1,16 +1,15 @@
 {
-  "navigation": "false",
   "text": "Made by Lefteris Charteros",
   "social": [
     {
       "name": "Github",
       "url": "https://github.com/harteros",
-        "icon": "i-tabler-brand-github"
+      "icon": "i-tabler-brand-github"
     },
     {
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/lefteris-charteros/",
-        "icon": "i-tabler-brand-linkedin"
+      "icon": "i-tabler-brand-linkedin"
     },
     {
       "name": "Twitter",
@@ -18,6 +17,4 @@
       "icon": "i-tabler-brand-twitter"
     }
   ]
-
-
 }
