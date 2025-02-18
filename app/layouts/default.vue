@@ -1,11 +1,12 @@
 <template>
-  <AppHeader/>
+  <AppHeader />
   <AppMain>
     <UContainer>
-      <slot/>
+      <slot />
     </UContainer>
   </AppMain>
-  <AppFooter/>
+  <AppFooter />
 </template>
+
 <script setup lang="ts">
 </script>

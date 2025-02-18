@@ -2,7 +2,7 @@
   "navigation": {
     "title": "About",
     "icon": "i-tabler-timeline",
-    "href": "#about"
+    "path": "#about"
   },
   "title": "About Me",
   "description": "My adventure in computer science began at university, where I quickly became captivated by the world of software engineering and machine learning. Since then, coding has become my go-to hobby, and I enjoy diving into all sorts of projects and tech stuff.",

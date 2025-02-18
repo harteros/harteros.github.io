@@ -1,14 +1,14 @@
 <template>
   <ClientOnly>
     <UButton
-        :icon="isDark ? 'i-tabler-moon' : 'i-tabler-sun'"
-        color="gray"
-        variant="ghost"
-        aria-label="Theme"
-        @click="isDark = !isDark"
+      :icon="isDark ? 'i-tabler-moon' : 'i-tabler-sun'"
+      color="gray"
+      variant="ghost"
+      aria-label="Theme"
+      @click="isDark = !isDark"
     />
     <template #fallback>
-      <div class="w-8 h-8"/>
+      <div class="w-8 h-8" />
     </template>
   </ClientOnly>
 </template>
@@ -22,6 +22,6 @@ const isDark = computed({
   },
   set() {
     colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
-  }
+  },
 })
 </script>
