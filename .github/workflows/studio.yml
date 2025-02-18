@@ -58,9 +58,12 @@ jobs:
         run: ${{ steps.pkgman.outputs.package_manager }} install
 
       - name: Generate
-        run: npx nuxi build --preset github_pages
+        run: ${{ steps.pkgman.outputs.package_manager }} nuxi generate
         env:
           NUXT_CONTENT_PREVIEW_API: https://api.nuxt.studio
+
+      - name: Add .nojekyll file
+        run: touch .output/public/.nojekyll
 
       # Deployment job
       - name: Deploy 🚀
