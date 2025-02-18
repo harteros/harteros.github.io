@@ -21,12 +21,6 @@ export default defineNuxtConfig({
     preference: 'dark',
   },
 
-  content: {
-    preview: {
-      api: 'https://api.nuxt.studio',
-    },
-  },
-
   future: {
     compatibilityVersion: 4,
   },
