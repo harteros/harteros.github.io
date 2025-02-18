@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  lockFileMaintenance: {
+    enabled: true
+  },
+  schedule: [
+    "after 1am and before 6am every monday"
+  ],
+  packageRules: [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true,
+      "automergeSchedule": [
+        "after 7am and before 12pm every sunday"
+      ]
+    }
+  ]
+}
