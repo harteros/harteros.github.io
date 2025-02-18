@@ -57,19 +57,10 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.pkgman.outputs.package_manager }} install
 
-      - name: Install @nuxthq/studio
-        run: ${{ steps.pkgman.outputs.package_manager }} add -D @nuxthq/studio
-
-      - name: Create .nuxtrc
-        run: echo $'\nautoImport=true\nmodules[]=@nuxthq/studio' >> .nuxtrc
-
       - name: Generate
-        run: ${{ steps.pkgman.outputs.package_manager }} nuxi generate
+        run: npx nuxi build --preset github_pages
         env:
-          NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
-
-      - name: Add .nojekyll file
-        run: touch .output/public/.nojekyll
+          NUXT_CONTENT_PREVIEW_API: https://api.nuxt.studio
 
       # Deployment job
       - name: Deploy 🚀
