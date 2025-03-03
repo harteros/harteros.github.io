@@ -1,0 +1,1 @@
+import{j as r,c as n,e as o,G as s}from"./Dt_Z4kEx.js";const t={};function c(e,a){return o(),n("strong",null,[s(e.$slots,"default")])}const _=Object.assign(r(t,[["render",c]]),{__name:"ProseStrong"});export{_ as default};
