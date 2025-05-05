@@ -1,1 +1,0 @@
-import{j as s,c as r,e as n,H as o}from"./DDc-7doS.js";const t={};function c(e,a){return n(),r("ul",null,[o(e.$slots,"default")])}const _=Object.assign(s(t,[["render",c]]),{__name:"ProseUl"});export{_ as default};
