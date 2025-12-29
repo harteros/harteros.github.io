@@ -13,7 +13,7 @@ importers:
         version: 1.2.3
       '@iconify-json/tabler':
         specifier: ^1.2.16
-        version: 1.2.24
+        version: 1.2.25
       '@nuxt/content':
         specifier: ^3.1.1
         version: 3.9.0(better-sqlite3@11.9.1)(magicast@0.5.1)
@@ -806,8 +806,8 @@ packages:
   '@iconify-json/skill-icons@1.2.3':
     resolution: {integrity: sha512-wyoP8uwox80jEi1ABZ3Z+I+ETtIr2brAERPPDzpJ9iALk8hyeg4/kdoC7M8HduhNkSkyq5kwBF8xvbqjNldnBQ==}
 
-  '@iconify-json/tabler@1.2.24':
-    resolution: {integrity: sha512-W1GIC36ckaQvr0fpQeyqC62HWyF3/r0yjJHtCByZmxA3qTMqLv0wJDdz/BffnmoCMulaBbxgjbTptFfKyn5e/g==}
+  '@iconify-json/tabler@1.2.25':
+    resolution: {integrity: sha512-yU0aipjN4moGTqeCbdA9m7Wl7CZ9PUqnlwQXng/iGXod43FiSZHNUyMbc1+mu0cR8BV7gf8rkQZJy+as8gWAEw==}
 
   '@iconify/collections@1.0.592':
     resolution: {integrity: sha512-Lu/ztAD4iqvRZ8b7zNqh2lnwEFQ/uzrKfgHpuPOzNPeTKb5Kj+6EFPfUpzjWd//CusGRaWbHyaBNdPKti0wlMQ==}
@@ -6536,7 +6536,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/tabler@1.2.24':
+  '@iconify-json/tabler@1.2.25':
     dependencies:
       '@iconify/types': 2.0.0
 
