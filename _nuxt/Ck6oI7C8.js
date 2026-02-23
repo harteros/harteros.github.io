@@ -1,1 +1,0 @@
-import{_ as r,d as n,H as o,i as s}from"./D-_4fej3.js";const t={};function a(e,c){return s(),n("strong",null,[o(e.$slots,"default")])}const l=Object.assign(r(t,[["render",a]]),{__name:"ProseStrong"});export{l as default};
