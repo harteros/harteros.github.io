@@ -36,8 +36,8 @@ importers:
         specifier: ^3.5.13
         version: 3.5.32(typescript@5.9.3)
       vue-router:
-        specifier: ^4.5.0
-        version: 4.6.4(vue@3.5.32(typescript@5.9.3))
+        specifier: ^5.0.0
+        version: 5.0.6(@vue/compiler-sfc@3.5.32)(vue@3.5.32(typescript@5.9.3))
 
 packages:
 
@@ -2025,6 +2025,9 @@ packages:
   '@vue/devtools-api@6.6.4':
     resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
 
+  '@vue/devtools-api@8.1.1':
+    resolution: {integrity: sha512-bsDMJ07b3GN1puVwJb/fyFnj/U2imyswK5UQVLZwVl7O05jDrt6BHxeG5XffmOOdasOj/bOmIjxJvGPxU7pcqw==}
+
   '@vue/devtools-core@8.1.0':
     resolution: {integrity: sha512-LvD1VgDpoHmYL00IgKRLKktF6SsPAb0yaV8wB8q2jRwsAWvqhS8+vsMLEGKNs7uoKyymXhT92dhxgf/wir6YGQ==}
     peerDependencies:
@@ -2033,8 +2036,14 @@ packages:
   '@vue/devtools-kit@8.1.0':
     resolution: {integrity: sha512-/NZlS4WtGIB54DA/z10gzk+n/V7zaqSzYZOVlg2CfdnpIKdB61bd7JDIMxf/zrtX41zod8E2/bbEBoW/d7x70Q==}
 
+  '@vue/devtools-kit@8.1.1':
+    resolution: {integrity: sha512-gVBaBv++i+adg4JpH71k9ppl4soyR7Y2McEqO5YNgv0BI1kMZ7BDX5gnwkZ5COYgiCyhejZG+yGNrBAjj6Coqg==}
+
   '@vue/devtools-shared@8.1.0':
     resolution: {integrity: sha512-h8uCb4Qs8UT8VdTT5yjY6tOJ//qH7EpxToixR0xqejR55t5OdISIg7AJ7eBkhBs8iu1qG5gY3QQNN1DF1EelAA==}
+
+  '@vue/devtools-shared@8.1.1':
+    resolution: {integrity: sha512-+h4ttmJYl/txpxHKaoZcaKpC+pvckgLzIDiSQlaQ7kKthKh8KuwoLW2D8hPJEnqKzXOvu15UHEoGyngAXCz0EQ==}
 
   '@vue/language-core@3.2.5':
     resolution: {integrity: sha512-d3OIxN/+KRedeM5wQ6H6NIpwS3P5gC9nmyaHgBk+rO6dIsjY+tOh4UlPpiZbAh3YtLdCGEX4M16RmsBqPmJV+g==}
@@ -4563,10 +4572,6 @@ packages:
     resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
 
-  picomatch@4.0.3:
-    resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
-    engines: {node: '>=12'}
-
   picomatch@4.0.4:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
@@ -5932,6 +5937,21 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
+  vue-router@5.0.6:
+    resolution: {integrity: sha512-9+kmUTGbKMyW9Asoy98IXXYIzrTMT7JDAdpDDeEkorHvybpUvBI2wsrSM5jFOXrFydpzRFJ9vAh+80DN2PGu9w==}
+    peerDependencies:
+      '@pinia/colada': '>=0.21.2'
+      '@vue/compiler-sfc': ^3.5.17
+      pinia: ^3.0.4
+      vue: ^3.5.0
+    peerDependenciesMeta:
+      '@pinia/colada':
+        optional: true
+      '@vue/compiler-sfc':
+        optional: true
+      pinia:
+        optional: true
+
   vue@3.5.32:
     resolution: {integrity: sha512-vM4z4Q9tTafVfMAK7IVzmxg34rSzTFMyIe0UUEijUCkn9+23lj0WRfA83dg7eQZIUlgOSGrkViIaCfqSAUXsMw==}
     peerDependencies:
@@ -6040,11 +6060,6 @@ packages:
   yallist@5.0.0:
     resolution: {integrity: sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==}
     engines: {node: '>=18'}
-
-  yaml@2.8.2:
-    resolution: {integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==}
-    engines: {node: '>= 14.6'}
-    hasBin: true
 
   yaml@2.8.3:
     resolution: {integrity: sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==}
@@ -6305,7 +6320,7 @@ snapshots:
       '@nuxt/kit': 4.4.2(magicast@0.5.2)
       chokidar: 5.0.0
       pathe: 2.0.3
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
       typescript: 5.9.3
     transitivePeerDependencies:
       - magicast
@@ -6917,7 +6932,7 @@ snapshots:
       simple-git: 3.33.0
       sirv: 3.0.2
       structured-clone-es: 1.0.0
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
       vite: 7.3.1(@types/node@24.3.0)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.3)
       vite-plugin-inspect: 11.3.3(@nuxt/kit@4.4.2(magicast@0.5.2))(vite@7.3.1(@types/node@24.3.0)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.3))
       vite-plugin-vue-tracer: 1.3.0(vite@7.3.1(@types/node@24.3.0)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.3))(vue@3.5.32(typescript@5.9.3))
@@ -7070,7 +7085,7 @@ snapshots:
       jiti: 2.6.1
       klona: 2.0.6
       knitwork: 1.2.0
-      mlly: 1.8.1
+      mlly: 1.8.2
       ohash: 2.0.11
       pathe: 2.0.3
       pkg-types: 2.3.0
@@ -7097,14 +7112,14 @@ snapshots:
       jiti: 2.6.1
       klona: 2.0.6
       knitwork: 1.3.0
-      mlly: 1.8.1
+      mlly: 1.8.2
       ohash: 2.0.11
       pathe: 2.0.3
       pkg-types: 2.3.0
       rc9: 3.0.0
       scule: 1.3.0
       semver: 7.7.4
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
       ufo: 1.6.3
       unctx: 2.5.0
       untyped: 2.0.0
@@ -7149,7 +7164,7 @@ snapshots:
       ignore: 7.0.5
       jiti: 2.6.1
       klona: 2.0.6
-      mlly: 1.8.1
+      mlly: 1.8.2
       ohash: 2.0.11
       pathe: 2.0.3
       pkg-types: 2.3.0
@@ -7333,7 +7348,7 @@ snapshots:
       jiti: 2.6.1
       knitwork: 1.3.0
       magic-string: 0.30.21
-      mlly: 1.8.1
+      mlly: 1.8.2
       mocked-exports: 0.1.1
       nuxt: 3.21.2(@netlify/blobs@9.1.2)(@parcel/watcher@2.5.6)(@types/node@24.3.0)(@vue/compiler-sfc@3.5.32)(better-sqlite3@11.9.1)(cac@6.7.14)(db0@0.3.4(better-sqlite3@11.9.1))(eslint@9.39.4(jiti@2.6.1))(ioredis@5.10.0)(magicast@0.5.2)(optionator@0.9.4)(rollup-plugin-visualizer@6.0.11(rollup@4.59.0))(rollup@4.59.0)(terser@5.46.0)(typescript@5.9.3)(vite@7.3.1(@types/node@24.3.0)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.3))(yaml@2.8.3)
       nypm: 0.6.5
@@ -8298,6 +8313,10 @@ snapshots:
 
   '@vue/devtools-api@6.6.4': {}
 
+  '@vue/devtools-api@8.1.1':
+    dependencies:
+      '@vue/devtools-kit': 8.1.1
+
   '@vue/devtools-core@8.1.0(vue@3.5.32(typescript@5.9.3))':
     dependencies:
       '@vue/devtools-kit': 8.1.0
@@ -8311,7 +8330,16 @@ snapshots:
       hookable: 5.5.3
       perfect-debounce: 2.1.0
 
+  '@vue/devtools-kit@8.1.1':
+    dependencies:
+      '@vue/devtools-shared': 8.1.1
+      birpc: 2.9.0
+      hookable: 5.5.3
+      perfect-debounce: 2.1.0
+
   '@vue/devtools-shared@8.1.0': {}
+
+  '@vue/devtools-shared@8.1.1': {}
 
   '@vue/language-core@3.2.5':
     dependencies:
@@ -8321,7 +8349,7 @@ snapshots:
       alien-signals: 3.1.2
       muggle-string: 0.4.1
       path-browserify: 1.0.1
-      picomatch: 4.0.3
+      picomatch: 4.0.4
 
   '@vue/language-core@3.2.7':
     dependencies:
@@ -9544,7 +9572,7 @@ snapshots:
   externality@1.0.2:
     dependencies:
       enhanced-resolve: 5.20.0
-      mlly: 1.8.1
+      mlly: 1.8.2
       pathe: 1.1.2
       ufo: 1.6.3
 
@@ -9569,10 +9597,6 @@ snapshots:
   fastq@1.19.1:
     dependencies:
       reusify: 1.1.0
-
-  fdir@6.5.0(picomatch@4.0.3):
-    optionalDependencies:
-      picomatch: 4.0.3
 
   fdir@6.5.0(picomatch@4.0.4):
     optionalDependencies:
@@ -10401,7 +10425,7 @@ snapshots:
       h3: 1.15.6
       http-shutdown: 1.2.2
       jiti: 2.6.1
-      mlly: 1.8.1
+      mlly: 1.8.2
       node-forge: 1.3.3
       pathe: 1.1.2
       std-env: 3.10.0
@@ -10413,7 +10437,7 @@ snapshots:
 
   local-pkg@1.1.2:
     dependencies:
-      mlly: 1.8.1
+      mlly: 1.8.2
       pkg-types: 2.3.0
       quansync: 0.2.11
 
@@ -10466,7 +10490,7 @@ snapshots:
     dependencies:
       estree-walker: 3.0.3
       magic-string: 0.30.21
-      mlly: 1.8.1
+      mlly: 1.8.2
       regexp-tree: 0.1.27
       type-level-regexp: 0.1.17
       ufo: 1.6.3
@@ -10966,7 +10990,7 @@ snapshots:
       magic-string: 0.30.21
       magicast: 0.5.2
       mime: 4.1.0
-      mlly: 1.8.1
+      mlly: 1.8.2
       node-fetch-native: 1.6.7
       node-mock-http: 1.0.4
       ofetch: 1.5.1
@@ -11488,8 +11512,6 @@ snapshots:
 
   picomatch@2.3.2: {}
 
-  picomatch@4.0.3: {}
-
   picomatch@4.0.4: {}
 
   pify@2.3.0: {}
@@ -11501,7 +11523,7 @@ snapshots:
   pkg-types@1.3.1:
     dependencies:
       confbox: 0.1.8
-      mlly: 1.8.1
+      mlly: 1.8.2
       pathe: 2.0.3
 
   pkg-types@2.3.0:
@@ -12574,8 +12596,8 @@ snapshots:
 
   tinyglobby@0.2.15:
     dependencies:
-      fdir: 6.5.0(picomatch@4.0.3)
-      picomatch: 4.0.3
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
 
   tinyglobby@0.2.16:
     dependencies:
@@ -12703,9 +12725,9 @@ snapshots:
       estree-walker: 3.0.3
       local-pkg: 1.1.2
       magic-string: 0.30.21
-      mlly: 1.8.1
+      mlly: 1.8.2
       pathe: 2.0.3
-      picomatch: 4.0.3
+      picomatch: 4.0.4
       pkg-types: 2.3.0
       scule: 1.3.0
       strip-literal: 3.1.0
@@ -12720,13 +12742,13 @@ snapshots:
       estree-walker: 3.0.3
       local-pkg: 1.1.2
       magic-string: 0.30.21
-      mlly: 1.8.1
+      mlly: 1.8.2
       pathe: 2.0.3
-      picomatch: 4.0.3
+      picomatch: 4.0.4
       pkg-types: 2.3.0
       scule: 1.3.0
       strip-literal: 3.1.0
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
       unplugin: 3.0.0
       unplugin-utils: 0.3.1
 
@@ -12780,15 +12802,15 @@ snapshots:
       json5: 2.2.3
       local-pkg: 1.1.2
       magic-string: 0.30.21
-      mlly: 1.8.1
+      mlly: 1.8.2
       muggle-string: 0.4.1
       pathe: 2.0.3
-      picomatch: 4.0.3
+      picomatch: 4.0.4
       scule: 1.3.0
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
       unplugin: 2.3.11
       unplugin-utils: 0.3.1
-      yaml: 2.8.2
+      yaml: 2.8.3
     optionalDependencies:
       vue-router: 4.6.4(vue@3.5.32(typescript@5.9.3))
     transitivePeerDependencies:
@@ -12840,7 +12862,7 @@ snapshots:
       lru-cache: 10.4.3
       node-fetch-native: 1.6.7
       ofetch: 1.5.1
-      ufo: 1.6.1
+      ufo: 1.6.3
     optionalDependencies:
       '@netlify/blobs': 9.1.2
       db0: 0.3.4(better-sqlite3@11.9.1)
@@ -12960,7 +12982,7 @@ snapshots:
       picocolors: 1.1.1
       picomatch: 4.0.4
       tiny-invariant: 1.3.3
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
       vite: 7.3.1(@types/node@24.3.0)(jiti@2.6.1)(terser@5.46.0)(yaml@2.8.3)
       vscode-uri: 3.1.0
     optionalDependencies:
@@ -13002,7 +13024,7 @@ snapshots:
       picomatch: 4.0.4
       postcss: 8.5.8
       rollup: 4.59.0
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.16
     optionalDependencies:
       '@types/node': 24.3.0
       fsevents: 2.3.3
@@ -13042,6 +13064,29 @@ snapshots:
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.32(typescript@5.9.3)
+
+  vue-router@5.0.6(@vue/compiler-sfc@3.5.32)(vue@3.5.32(typescript@5.9.3)):
+    dependencies:
+      '@babel/generator': 7.29.1
+      '@vue-macros/common': 3.1.2(vue@3.5.32(typescript@5.9.3))
+      '@vue/devtools-api': 8.1.1
+      ast-walker-scope: 0.8.3
+      chokidar: 5.0.0
+      json5: 2.2.3
+      local-pkg: 1.1.2
+      magic-string: 0.30.21
+      mlly: 1.8.2
+      muggle-string: 0.4.1
+      pathe: 2.0.3
+      picomatch: 4.0.4
+      scule: 1.3.0
+      tinyglobby: 0.2.16
+      unplugin: 3.0.0
+      unplugin-utils: 0.3.1
+      vue: 3.5.32(typescript@5.9.3)
+      yaml: 2.8.3
+    optionalDependencies:
+      '@vue/compiler-sfc': 3.5.32
 
   vue@3.5.32(typescript@5.9.3):
     dependencies:
@@ -13130,8 +13175,6 @@ snapshots:
   yallist@3.1.1: {}
 
   yallist@5.0.0: {}
-
-  yaml@2.8.2: {}
 
   yaml@2.8.3: {}
 
