@@ -1,0 +1,1 @@
+import{b as r,o as s,a6 as o,Z as t}from"./DTZPmJon.js";const n={};function a(e,c){return t(),s("tr",null,[o(e.$slots,"default")])}const _=Object.assign(r(n,[["render",a]]),{__name:"ProseTr"});export{_ as default};
