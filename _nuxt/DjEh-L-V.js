@@ -1,1 +1,0 @@
-import{b as a,o as s,a6 as o,Z as r}from"./DTZPmJon.js";const t={};function n(e,c){return r(),s("table",null,[o(e.$slots,"default")])}const _=Object.assign(a(t,[["render",n]]),{__name:"ProseTable"});export{_ as default};
