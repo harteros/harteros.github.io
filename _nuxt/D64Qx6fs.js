@@ -1,0 +1,1 @@
+import{_ as s,d as a,G as r,i as t}from"./BMzymP_K.js";const n={};function o(e,c){return t(),a("table",null,[r(e.$slots,"default")])}const _=Object.assign(s(n,[["render",o]]),{__name:"ProseTable"});export{_ as default};
