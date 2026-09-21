@@ -13,7 +13,7 @@ importers:
         version: 1.2.4
       '@iconify-json/tabler':
         specifier: ^1.2.16
-        version: 1.2.38
+        version: 1.2.39
       '@nuxt/content':
         specifier: ^3.1.1
         version: 3.16.0(@oxc-project/types@0.143.0)(@valibot/to-json-schema@1.7.1(valibot@1.4.1(typescript@5.9.3)))(esbuild@0.28.2)(magic-string@1.2.3)(magicast@0.5.4)(oxc-parser@0.139.0)(rollup@4.63.1)(valibot@1.4.1(typescript@5.9.3))(vite@7.3.6(@types/node@26.4.1)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.0))
@@ -533,8 +533,8 @@ packages:
   '@iconify-json/skill-icons@1.2.4':
     resolution: {integrity: sha512-S6iRKHGlGCb/zfx3Isv1TBe5PunbDE5FEwJcaXji60+yRZMrcFFtYEI1xivKqaGKXyVZ508yjGDItsehQdJmSg==}
 
-  '@iconify-json/tabler@1.2.38':
-    resolution: {integrity: sha512-9v6ooRU/bKOK/Whv4w2aiK5gBnfCV9Ei+uD1iDDeLu2b+EnF3G3ZKkRKWEOOLG8bJyfKn6XEia6gUQ9oO7cF+Q==}
+  '@iconify-json/tabler@1.2.39':
+    resolution: {integrity: sha512-lMj4kPXAS9G7fkkHxxR/LqBeaFXywTtnK5kRFDNEYxsYzGZBcBpQDaxRE4SZQS6XHBHoeOpRbE+Bg8kv0is+wg==}
 
   '@iconify/collections@1.0.592':
     resolution: {integrity: sha512-Lu/ztAD4iqvRZ8b7zNqh2lnwEFQ/uzrKfgHpuPOzNPeTKb5Kj+6EFPfUpzjWd//CusGRaWbHyaBNdPKti0wlMQ==}
@@ -3769,6 +3769,10 @@ packages:
     resolution: {integrity: sha512-evOr8xfXKxE6qSR0hSXL2r3sd7ALj8+7jQEUvPYcm5sgZFdJ+AYzT6yNmJenvIYQBgIGwfwz08sL8zoL7yq2BA==}
     engines: {node: '>= 0.4'}
 
+  is-core-module@2.17.0:
+    resolution: {integrity: sha512-J/vG0zBCbIKOQFfufSwyXdMrsohyJIUNkrnmo6WZGzoM7tr/lsbfW5b2BvisL6zsyMzK9UxV9L6c7AoFbyXHOA==}
+    engines: {node: '>= 0.4'}
+
   is-decimal@2.0.1:
     resolution: {integrity: sha512-AAB9hiomQs5DXWcRB1rqsxGUstbRroFOPPVAomNk/3XHR5JyEZChOyTWe2oayKnsSsr/kcGqF+z6yuH6HHpN0A==}
 
@@ -6826,7 +6830,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/tabler@1.2.38':
+  '@iconify-json/tabler@1.2.39':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -9744,7 +9748,7 @@ snapshots:
   eslint-import-resolver-node@0.3.9:
     dependencies:
       debug: 3.2.7
-      is-core-module: 2.16.2
+      is-core-module: 2.17.0
       resolve: 1.22.12
     transitivePeerDependencies:
       - supports-color
@@ -10624,6 +10628,11 @@ snapshots:
   is-core-module@2.16.2:
     dependencies:
       hasown: 2.0.4
+
+  is-core-module@2.17.0:
+    dependencies:
+      hasown: 2.0.4
+    optional: true
 
   is-decimal@2.0.1: {}
 
