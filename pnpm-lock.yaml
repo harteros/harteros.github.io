@@ -13,7 +13,7 @@ importers:
         version: 1.2.4
       '@iconify-json/tabler':
         specifier: ^1.2.16
-        version: 1.2.43
+        version: 1.2.46
       '@nuxt/content':
         specifier: ^3.1.1
         version: 3.16.2(@nuxt/schema@3.21.11)(@oxc-project/types@0.143.0)(@valibot/to-json-schema@1.7.1(valibot@1.4.1(typescript@5.9.3)))(confbox@0.3.1)(dotenv@17.4.2)(esbuild@0.28.2)(giget@3.3.1)(magic-string@1.4.5)(magicast@0.5.4)(mlly@1.8.2)(oxc-parser@0.139.0)(rollup@4.63.1)(valibot@1.4.1(typescript@5.9.3))(vite@7.3.6(@types/node@26.4.1)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
@@ -541,8 +541,8 @@ packages:
   '@iconify-json/skill-icons@1.2.4':
     resolution: {integrity: sha512-S6iRKHGlGCb/zfx3Isv1TBe5PunbDE5FEwJcaXji60+yRZMrcFFtYEI1xivKqaGKXyVZ508yjGDItsehQdJmSg==}
 
-  '@iconify-json/tabler@1.2.43':
-    resolution: {integrity: sha512-EKhyOj6nASi25ZjuRpEhPL1fwiKVtg/e/VX6v6X3FPKpjG9og26ypW8ItnWYSTn6fdNuQe3VPeyuThWlP6QuWw==}
+  '@iconify-json/tabler@1.2.46':
+    resolution: {integrity: sha512-iyEZEUhHV4x1ZbNzzjk3i6Z+MH5h5nXipqKaH7+bUlnoQwzn7fNjWRSqwWtwQ4PYN6WM+N/fLQC/48TRto26qQ==}
 
   '@iconify/collections@1.0.592':
     resolution: {integrity: sha512-Lu/ztAD4iqvRZ8b7zNqh2lnwEFQ/uzrKfgHpuPOzNPeTKb5Kj+6EFPfUpzjWd//CusGRaWbHyaBNdPKti0wlMQ==}
@@ -6913,7 +6913,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/tabler@1.2.43':
+  '@iconify-json/tabler@1.2.46':
     dependencies:
       '@iconify/types': 2.0.0
 
